@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WKWebView File XHR test</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+
+    <body>
+        <p>The blue div below should display the text "Hello World", fetched via XMLHttpRequest:</p>
+
+        <div id="outputDiv" style="background-color: lightsteelblue; padding: 2em;">
+        </div>
+
+
+        <script>
+            var output = document.querySelector('#outputDiv');
+
+            function xhrOnLoad() {
+                output.innerText = this.responseText;
+            }
+
+            var xhr = new XMLHttpRequest();
+            xhr.addEventListener("load", xhrOnLoad);
+            xhr.open("GET", "test.txt");
+            xhr.send();
+        </script>
+    </body>
+</html>
