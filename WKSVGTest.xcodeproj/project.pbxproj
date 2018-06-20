@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		903CCBD91D959194002B561A /* WKFileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903CCBD91D959194002B561A /* WKSVGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKSVGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903CCBDC1D959194002B561A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		903CCBDE1D959194002B561A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		903CCBE11D959195002B561A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				903CCBEE1D9598CD002B561A /* www */,
-				903CCBDB1D959194002B561A /* WKFileTest */,
+				903CCBDB1D959194002B561A /* WKSVGTest */,
 				903CCBDA1D959194002B561A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		903CCBDA1D959194002B561A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				903CCBD91D959194002B561A /* WKFileTest.app */,
+				903CCBD91D959194002B561A /* WKSVGTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		903CCBDB1D959194002B561A /* WKFileTest */ = {
+		903CCBDB1D959194002B561A /* WKSVGTest */ = {
 			isa = PBXGroup;
 			children = (
 				903CCBDC1D959194002B561A /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				903CCBE51D959195002B561A /* LaunchScreen.storyboard */,
 				903CCBE81D959195002B561A /* Info.plist */,
 			);
-			path = WKFileTest;
+			path = WKSVGTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		903CCBD81D959194002B561A /* WKFileTest */ = {
+		903CCBD81D959194002B561A /* WKSVGTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 903CCBEB1D959195002B561A /* Build configuration list for PBXNativeTarget "WKFileTest" */;
+			buildConfigurationList = 903CCBEB1D959195002B561A /* Build configuration list for PBXNativeTarget "WKSVGTest" */;
 			buildPhases = (
 				903CCBD51D959194002B561A /* Sources */,
 				903CCBD61D959194002B561A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = WKFileTest;
-			productName = WKFileTest;
-			productReference = 903CCBD91D959194002B561A /* WKFileTest.app */;
+			name = WKSVGTest;
+			productName = WKSVGTest;
+			productReference = 903CCBD91D959194002B561A /* WKSVGTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 903CCBD41D959194002B561A /* Build configuration list for PBXProject "WKFileTest" */;
+			buildConfigurationList = 903CCBD41D959194002B561A /* Build configuration list for PBXProject "WKSVGTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				903CCBD81D959194002B561A /* WKFileTest */,
+				903CCBD81D959194002B561A /* WKSVGTest */,
 			);
 		};
 /* End PBXProject section */
@@ -265,10 +265,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = ARC8LLSKBB;
-				INFOPLIST_FILE = WKFileTest/Info.plist;
+				INFOPLIST_FILE = WKSVGTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.dpogue.WKFileTest;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.dpogue.WKSVGTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,10 +279,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = ARC8LLSKBB;
-				INFOPLIST_FILE = WKFileTest/Info.plist;
+				INFOPLIST_FILE = WKSVGTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.dpogue.WKFileTest;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.dpogue.WKSVGTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -290,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		903CCBD41D959194002B561A /* Build configuration list for PBXProject "WKFileTest" */ = {
+		903CCBD41D959194002B561A /* Build configuration list for PBXProject "WKSVGTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				903CCBE91D959195002B561A /* Debug */,
@@ -299,13 +301,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		903CCBEB1D959195002B561A /* Build configuration list for PBXNativeTarget "WKFileTest" */ = {
+		903CCBEB1D959195002B561A /* Build configuration list for PBXNativeTarget "WKSVGTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				903CCBEC1D959195002B561A /* Debug */,
 				903CCBED1D959195002B561A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
